@@ -89,3 +89,13 @@ Push your code to a GitHub repository, import it into Vercel, and deploy instant
 ---
 
 *Designed and developed for the future. Initialize your swarm.*
+
+
+## 🤝 Contributing
+
+We welcome contributions! Please see our [CONTRIBUTING.md](./CONTRIBUTING.md) for details.
+
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
