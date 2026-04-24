@@ -1,15 +1,9 @@
-"use client";
+"use client"
 
-import React from "react";
-import { motion } from "framer-motion";
+import { motion } from "framer-motion"
+import { ReactNode } from "react"
 
-interface ScrollRevealProps {
-  children: React.ReactNode;
-  delay?: number;
-  className?: string;
-}
-
-export function ScrollReveal({ children, delay = 0, className }: ScrollRevealProps) {
+export function ScrollReveal({ children, className, delay = 0 }: { children: ReactNode, className?: string, delay?: number }) {
   return (
     <motion.div
       initial={{ opacity: 0, y: 30 }}
@@ -20,5 +14,5 @@ export function ScrollReveal({ children, delay = 0, className }: ScrollRevealPro
     >
       {children}
     </motion.div>
-  );
+  )
 }
